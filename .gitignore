@@ -1,0 +1,32 @@
+# Python environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Private evidence and generated data
+evidence_store/
+private_evidence/
+reports/
+model_cache/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Locally downloaded model weights (verify licence before redistribution)
+models/*.onnx

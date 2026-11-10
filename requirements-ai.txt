@@ -1,0 +1,2 @@
+# Optional dependency for AASIST-L ONNX synthetic-speech screening
+onnxruntime>=1.18,<2
